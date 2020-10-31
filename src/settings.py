@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     # 'allauth.socialaccount.providers.telegram',
 
     # apps
+
 ]
 
 
@@ -101,6 +102,7 @@ AUTHENTICATION_BACKENDS = (
 
 SITE_ID = 1
 LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
